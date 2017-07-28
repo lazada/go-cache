@@ -1,0 +1,11 @@
+package: go-cache
+import:
+- package: github.com/aerospike/aerospike-client-go
+  subpackages:
+  - logger
+  - types
+- package: github.com/pkg/errors
+  version: ^0.8.0
+testImports:
+- package: github.com/vaughan0/go-ini
+  vcs: git
